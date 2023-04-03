@@ -14,6 +14,7 @@ from .routes import setup_routes
 import flask
 import sqlite3
 
+password = "$ecurePa$$w0rd"
 
 def init(argv):
     ap = ArgumentParser()
